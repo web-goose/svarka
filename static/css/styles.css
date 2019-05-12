@@ -149,11 +149,9 @@ header .container  {
 }
 .block-5 {
     padding: 2rem;
-    border: 0.2rem dashed #fff;
-    border-image-slice: 5; 
-    width: 500px;
-    height: 380px;
+    border: 0.2rem dashed #fff; 
 }
+
 .block-5 h3 {
     color: #fff;
 }
@@ -163,7 +161,6 @@ header .container  {
 .block-4 span {
     background-color: #fff;
     padding: 1rem 1.6rem;
-    margin-top: 15rem;
     border-radius: 50%;
     color: #000;
     font-weight: 700;
