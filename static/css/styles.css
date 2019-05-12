@@ -136,8 +136,18 @@ header .container  {
     background-image: url("../img/block4/bg.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: 900px;
+    /* height: 900px; */
     background-size: cover;
+}
+@media screen and (max-device-width: 724px){
+    .block-4 {
+        height: 1200px;
+    }
+}
+@media screen and (min-device-width: 725px){
+    .block-4 {
+        height: 900px;
+    }
 }
 .block-4 .container {
     background-image: url('../img/block4/fingers.png');
@@ -158,6 +168,7 @@ header .container  {
 }
 .block-5 h1 {
     color: #BF5130;
+    font-size: 35px;
 }
 .block-4 span {
     background-color: #fff;
