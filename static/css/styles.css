@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+body {
+    font-family: 'Arimo';
+    color: #fff;
+}
+h1 {
+    font-family: 'Arimo';
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+h2 {
+    font-family: 'Arimo';
+    font-size: 35px;
+    color: #BF5130;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Arimo';
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+button {
+    border: 0.2rem solid #BF5130;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    font-size: 32px;
+    transition: 0.1s linear;
+}
+button:hover {
+    background-color: #BF5130;
+}
+.button-1 {
+    color: #000;
+    font-weight: 700;
+}
+hr {
+    width: 100%;
+    height: 0.1rem;
+    color: #000;
+}
+i,span  {
+    font-size: 35px;
+}
+i {
+    color: #BF5130;
+    margin: 0 1rem;
+}
+header {
+    background-image: url("../img/header/bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+header .container  {
+    background-image: url('../img/header/bg1.png');
+    background-size: 65%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+.form {
+    border: 0.2rem solid #BF5130;
+    padding: 2.6rem 2rem;
+}
+.form p {
+    color: #aaaaaa;
+    padding: 1rem 0;
+}
+.form input {
+    width: 20rem;
+    margin: 1rem auto;
+}
+.form button {
+    text-transform: uppercase;
+    background-color: #BF5130;
+    margin: 0.5rem 0;
+    padding: 0.5rem 4rem;
+}
+.item-img img {
+    width: 150px;
+    height: 150px;
+}
+.item-body {
+    padding: 1rem;
+    color: #000;
+}
+.block-2 {
+    background-image: url("../img/block2/bg-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.block-2 h4 {
+    color: #fff;
+    padding: 0;
+}
+.block-2 h2 {
+    color: #fff;
+    margin: 0.3rem 0;
+}
+.block-2 h1 {
+    color: #BF5130;
+    margin: 0.3rem 0;
+}
+.block-3 h2 {
+    color: #000;
+}
+.card {
+    background-color: #fff;
+    border: none;
+    margin: 2rem 0;
+}
+.card-text {
+    color: #000;
+}
+.card img {
+    width: 180px;
+    height: 180px;
+}
+.block-4 {
+    background-image: url("../img/block4/bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+.block-4 .container {
+    background-image: url('../img/block4/fingers.png');
+    background-size: 20%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+}
+.block-5 {
+    padding: 2rem;
+    border: 0.2rem dashed #fff;
+    border-image-slice: 5; 
+    width: 500px;
+    height: 380px;
+}
+.block-5 h3 {
+    color: #fff;
+}
+.block-5 h1 {
+    color: #BF5130;
+}
+.block-4 span {
+    background-color: #fff;
+    padding: 1rem 1.6rem;
+    margin-top: 15rem;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 700;
+}
+.block-6 h1{
+    color: #000;
+}
+footer {
+    background-color: #131311;
+    padding: 4rem 0;
+}
+footer h3 {
+    color: #fff;
+}
